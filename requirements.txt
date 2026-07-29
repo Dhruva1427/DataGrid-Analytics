@@ -1,0 +1,18 @@
+pandas>=2.1.0
+duckdb>=0.10.0
+faker>=22.0.0
+pyarrow>=15.0.0
+watchdog>=4.0.0
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.22
+openai==2.20.0
+python-dotenv==1.2.1
+openpyxl>=3.1.0
+
+# Optional: RAG (Retrieval-Augmented Generation) for AI Analyst
+# Note: ChromaDB has compatibility issues with Python 3.14+
+# If using Python 3.14+, RAG will be automatically disabled
+# RAG is optional - AI Analyst works fine without it
+# chromadb>=0.4.0
+# sentence-transformers>=2.2.0
